@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+class Airplane {
+private:
+	string type{"Boeing"};
+	string model = "747 Max";
+	int year {2021};
+
+public:
+	void openGate() {
+		cout <<"Welcome to the gate" << endl;
+		cout << type << model << year << endl;
+	}
+
+};

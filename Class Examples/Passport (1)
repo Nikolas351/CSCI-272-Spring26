@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+class Passport {
+public:
+	string name{"Nathen"};
+	int age{21};
+	string countryOrigin = "United States";
+
+public:
+	void giveName() {
+		cout << "Hello my name is " << name << " and im " << age << " and im from " << countryOrigin << " am i good to go?" << endl;
+	}
+
+
+};
